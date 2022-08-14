@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Zomato Listing page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="./Images/icon.png">
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./Images/icon.png" alt="navbar icon" width="80px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Food</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Drinks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About US</a>
+              </li>
+            
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <div class="filterMenu p-3">
+                <h3>Filters</h3>
+                    <h5>Cusines</h5>
+                    <input type="radio"/>&nbsp; North Indian<br>
+                    <input type="radio"/>&nbsp; South Indian<br>
+                    <input type="radio"/>&nbsp; chinese<br>
+                    <input type="radio"/>&nbsp; Punjabi<br>
+                    <input type="radio"/>&nbsp; Mexican<br>
+                    <h5> Cost</h5>
+                    <input type="checkbox"/>&nbsp; 99-199<br>
+                    <input type="checkbox"/>&nbsp; 200-299<br>
+                    <input type="checkbox"/>&nbsp; 300-399<br>
+                    <input type="checkbox"/>&nbsp; above 399<br>
+                    <h5>Distance From home</h5>
+                    <input type="radio"/>&nbsp; 1 km Radius<br>
+                    <input type="radio"/>&nbsp; 2 km Radius<br>
+                    <input type="radio"/>&nbsp; 5 km Radius<br>
+                    <input type="radio"/>&nbsp; More than 5 kms<br>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-12">
+                <input class="w-100 mb-2 mt-3" type="search" placeholder="search here for food,restaurant" />
+                <p class="headingStatus">Search Result for: <b>"Cusine: North Indian, Cost Rs.200 to Rs.300, Distance 3km Radius"</b></p>
+                <p class="headingStatus">Number of Results: <b>23</b></p>
+                <div class="card mb-3" style="max-width: 740px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="./Images/dosa.jpg" class="img-fluid rounded-start card-Img" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Dosa</h5>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="ratings">
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <h5 class="review-count">12 Reviews</h5>
+                        </div>
+                          <p class="card-text text-red">#1 of 100 restaurants in Hyderabad</p>
+                          <p class="card-text">Open now 6:30AM -11:30PM</p>
+                          <p class="card-text">Asian, Indian, International, Vegeterain Options</p>
+                          <p class="card-text"><b>Rs. 250.00</b></p>
+                          <button type="button" class="mt-2 btn btn-warning">Lunch</button>
+                          <button type="button" class="mt-2 btn btn-danger">Dinner</button>
+                          <button type="button" class="mt-2 btn btn-info">North Indian</button>
+                          <button type="button" class="mt-2 btn btn-success">Chinese</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card mb-3" style="max-width: 740px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="./Images/noodles.jpg" class="img-fluid rounded-start card-Img" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Noodles</h5>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="ratings">
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                            </div>
+                            <h5 class="review-count">122 Reviews</h5>
+                        </div>
+                          <p class="card-text text-red">#2 of 100 restaurants in Hyderabad</p>
+                          <p class="card-text">Open now 10:30AM -11:30PM</p>
+                          <p class="card-text">Asian, Indian, International, Zapanese Options</p>
+                          <p class="card-text"><b>Rs. 149.00</b></p>
+                          <button type="button" class="mt-2 btn btn-warning">Lunch</button>
+                          <button type="button" class="mt-2 btn btn-danger">Dinner</button>
+                          <button type="button" class="mt-2 btn btn-info">North Indian</button>
+                          <button type="button" class="mt-2 btn btn-success">Chinese</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card mb-3" style="max-width: 740px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="./Images/burger.jpg" class="img-fluid rounded-start card-Img" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Burger</h5>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="ratings">
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star "></i>
+                                <i class="fa fa-star "></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <h5 class="review-count">45 Reviews</h5>
+                        </div>
+                          <p class="card-text text-red">#3 of 100 restaurants in Hyderabad</p>
+                          <p class="card-text">Open now 2:00PM -9:30PM</p>
+                          <p class="card-text">Asian, Indian, International, Vegeterain Options</p>
+                          <p class="card-text"><b>Rs. 250.00</b></p>
+                          <button type="button" class="mt-2 btn btn-warning">Lunch</button>
+                          <button type="button" class="mt-2 btn btn-danger">Dinner</button>
+                          <button type="button" class="mt-2 btn btn-info">North Indian</button>
+                          <button type="button" class="mt-2 btn btn-success">Chinese</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
+               
+            </div>
+        </div>
+      </div>
+<!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5">
+    <!-- Footer -->
+    <footer
+            class="text-center text-lg-start text-dark"
+            style="background-color: #ECEFF1"
+            >
+      
+  
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3 pt-4">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold">Company </h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                  />
+              <p>
+               This is a zomato site where you can order food online and save your hunger.
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Food</h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                  />
+              <p>
+                <a href="#!" class="text-dark">Biryani</a>
+              </p>
+              <p>
+                <a href="#!" class="text-dark">Noodles</a>
+              </p>
+              <p>
+                <a href="#!" class="text-dark">Burger</a>
+              </p>
+              <p>
+                <a href="#!" class="text-dark">momos</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Drinks</h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                  />
+              <p>
+                <a href="#!" class="text-dark">Juices</a>
+              </p>
+              <p>
+                <a href="#!" class="text-dark">alcoho</a>
+              </p>
+              <p>
+                <a href="#!" class="text-dark">Non-Alcohol</a>
+              </p>
+              <p>
+                <a href="#!" class="text-dark">Beverages</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Contact</h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                  />
+              <p><i class="fas fa-home mr-3"></i> Jntu HYD</p>
+              <p><i class="fas fa-envelope mr-3"></i> rahul@edureka.com</p>
+              <p><i class="fas fa-phone mr-3"></i> + 91 123 546 845</p>
+              <p><i class="fas fa-print mr-3"></i> + 01 24 22 344</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+  
+      <!-- Copyright -->
+      <div
+           class="text-center p-3"
+           style="background-color: rgba(0, 0, 0, 0.2)"
+           >
+        © 2022 Copyright:
+        <a class="text-dark" href="#"
+           >Rahul Adupa</a
+          >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </div>
+  <!-- End of .container -->
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  </body>
+</html>

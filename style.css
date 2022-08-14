@@ -1,0 +1,24 @@
+.rating-color{
+    color:#fbc634 !important;
+}
+.text-red{
+    color: red;
+}
+.card-body p{
+    margin: 5px;
+}
+.card-Img{
+    height: 260px;
+}
+.filterMenu{
+    background-color: antiquewhite;
+}
+a{
+    text-decoration: none;
+}
+
+@media (min-width: 375px) and (max-width: 768px) { 
+.card-Img{
+    min-width: -webkit-fill-available;
+}
+ }
